@@ -1,0 +1,40 @@
+/* there are five main background properties in CSS2
+background-color: specifies the solid color to fill the background.
+background-image: calls an image for background.
+background-position: specifies where the imaeg should be placed.
+background-repeat: determiens whether the image is tiled.
+background-attachment: determines whether the image scrolls with the page.
+*/
+
+.image1{
+   background-image: url(images/flower1.jpeg); 
+}
+
+.image2{
+    background-image: url(images/flower1.jpeg); 
+    background-repeat: repeat;
+ }
+
+.image3{
+    background-image: url(images/flower1.jpeg); 
+    background-repeat: no-repeat;
+ }
+
+ .image4{
+    background-image: url(images/flower1.jpeg); 
+    background-repeat: repeat-x;
+ }
+
+ .image5{
+    background-image: url(images/flower1.jpeg); 
+    background-repeat: repeat-y;
+ }
+
+
+ /*find out how the property below works*/
+.image6{
+    background-image: url(images/flower1.jpeg); 
+    background-repeat: inherit;
+ }
+
+ 

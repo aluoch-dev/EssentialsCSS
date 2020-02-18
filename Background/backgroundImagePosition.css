@@ -1,0 +1,50 @@
+.position1{
+    background-image: url(images/flower1.jpeg);
+    background-repeat:no-repeat;
+    background-position: 0 0; /*default-top left corner of element*/
+}
+
+.position2{
+    background-image: url(images/flower1.jpeg);
+    background-repeat:no-repeat;
+    background-position: 75px 0; /*move the image to the right*/
+}
+
+.position3{
+    background-image: url(images/flower1.jpeg);
+    background-repeat:no-repeat;
+    background-position: -75px 0; /*move the image to the left*/
+}
+
+.position4{
+    background-image: url(images/flower1.jpeg);
+    background-repeat:no-repeat;
+    background-position: 0 100px; /*move the image down*/
+}
+
+/* also you can sue the following for x-axis positioning
+>left
+>center
+>right
+
+and the following for y-axis positioning
+>top
+>center
+>bottom
+
+in consideration of pixel arrangement using values, left first, right the second.
+eg background-position:top right */
+
+/*using perecentages 
+the image is set in relation to the size of the element.
+set as background-position: 100% 50%.observe the last element to understand
+performance.*/
+
+.position5{
+    background-image: url(images/flower1.jpeg);
+    background-repeat:no-repeat;
+    background-position: 100% 50px; /*move the image down*/
+}
+
+
+
